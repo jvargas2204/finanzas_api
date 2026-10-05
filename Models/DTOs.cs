@@ -6,7 +6,7 @@ namespace FinanzasApi.Models.DTOs;
 // ============ Workspace DTOs ============
 public record WorkspaceDto(
     Guid Id,
-    string Name,
+    string nombre,
     string BaseCurrency,
     short FiscalYearStartMonth,
     DateTime CreatedAt
@@ -19,7 +19,7 @@ public record CreateWorkspaceRequest(
 );
 
 public record UpdateWorkspaceRequest(
-    string? Name,
+    string? nombre,
     string? BaseCurrency,
     short? FiscalYearStartMonth
 );
