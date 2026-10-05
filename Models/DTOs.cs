@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
 namespace FinanzasApi.Models.DTOs;
 
@@ -83,23 +82,23 @@ public record UpdateCategoryRequest(
 public record ContactDto(
     Guid Id,
     Guid WorkspaceId,
-    [property: JsonPropertyName("nombre")] string Name,
-    [property: JsonPropertyName("tipoCliente")] string Kind,
+    string nombre,
+    string tipoCliente,
     string? Email,
     string? TaxId,
     DateTime CreatedAt
 );
 
 public record CreateContactRequest(
-    [Required][property: JsonPropertyName("nombre")] string Name,
-    [Required][property: JsonPropertyName("tipoCliente")] string Kind,
+    [Required] string nombre,
+    [Required] string tipoCliente,
     string? Email = null,
     string? TaxId = null
 );
 
 public record UpdateContactRequest(
-    [property: JsonPropertyName("nombre")] string Name,
-    [property: JsonPropertyName("tipoCliente")] string Kind,
+    string nombre,
+    string tipoCliente,
     string? Email,
     string? TaxId
 );
