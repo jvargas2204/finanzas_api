@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinanzasApi.src.FinanzasApi.Domain.Entities
 {
+
     public class Transaction
     {
         [Key]
@@ -69,5 +70,4 @@ namespace FinanzasApi.src.FinanzasApi.Domain.Entities
 
         public ICollection<TransactionTag> TransactionTags { get; set; } = new List<TransactionTag>();
     }
-}
 }
