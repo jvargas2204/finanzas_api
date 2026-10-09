@@ -26,5 +26,13 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
   </ItemGroup>
+	<ItemGroup>
+	  <Folder Include="src\FinanzasApi.Application\Dtos\" />
+	  <Folder Include="src\FinanzasApi.Application\Interfaces\" />
+	  <Folder Include="src\FinanzasApi.Application\Services\" />
+	  <Folder Include="src\FinanzasApi.Domain\Enums\" />
+	  <Folder Include="src\FinanzasApi.Infrastructure\Controllers\" />
+	  <Folder Include="src\FinanzasApi.Infrastructure\Persistence\" />
+	</ItemGroup>
 
 </Project>
