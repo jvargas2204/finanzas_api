@@ -1,7 +1,7 @@
 using System.Text.Json;
 using FinanzasApi.Data;
 using FinanzasApi.Models;
-using FinanzasApi.Models.DTOs;
+using FinanzasApi.src.FinanzasApi.Application.Dtos;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinanzasApi.Services;

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 
-namespace FinanzasApi.Models.DTOs;
+namespace FinanzasApi.src.FinanzasApi.Application.Dtos;
 
 // ============ Workspace DTOs ============
 public record WorkspaceDto(

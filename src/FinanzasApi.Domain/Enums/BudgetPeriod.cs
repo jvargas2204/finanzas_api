@@ -1,6 +1,6 @@
 ﻿namespace FinanzasApi.src.FinanzasApi.Domain.Enums
 {
-    public class BudgetPeriod
-    {
-    }
+
+        public enum BudgetPeriod { Weekly, Monthly, Quarterly, Yearly }
+  
 }
