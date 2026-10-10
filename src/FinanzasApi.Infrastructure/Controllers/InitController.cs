@@ -1,7 +1,9 @@
 using FinanzasApi.Data;
-using FinanzasApi.Models;
+using FinanzasApi.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
+using FinanzasApi.Domain.Enums;
 
 namespace FinanzasApi.Controllers;
 

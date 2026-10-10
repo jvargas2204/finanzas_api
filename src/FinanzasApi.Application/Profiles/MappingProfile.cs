@@ -1,8 +1,9 @@
 using AutoMapper;
-using FinanzasApi.Models;
-using FinanzasApi.Models.DTOs;
+using FinanzasApi.Domain.Entities;
+using FinanzasApi.Domain.Enums;
+using FinanzasApi.Application.Dtos;
 
-namespace FinanzasApi.Profiles;
+namespace FinanzasApi.Application.Profiles;
 
 public class MappingProfile : Profile
 {

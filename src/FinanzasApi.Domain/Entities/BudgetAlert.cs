@@ -1,7 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using FinanzasApi.Domain.Enums;
 
-namespace FinanzasApi.src.FinanzasApi.Domain.Entities
+namespace FinanzasApi.Domain.Entities
 {
     public class BudgetAlert
     {

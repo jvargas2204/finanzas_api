@@ -1,12 +1,11 @@
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 
-namespace FinanzasApi.src.FinanzasApi.Application.Dtos;
+namespace FinanzasApi.Application.Dtos;
 
 // ============ Workspace DTOs ============
 public record WorkspaceDto(
     Guid Id,
-    string nombre,
+    string Name,
     string BaseCurrency,
     short FiscalYearStartMonth,
     DateTime CreatedAt
@@ -19,7 +18,7 @@ public record CreateWorkspaceRequest(
 );
 
 public record UpdateWorkspaceRequest(
-    string? nombre,
+    string? Name,
     string? BaseCurrency,
     short? FiscalYearStartMonth
 );
@@ -82,23 +81,23 @@ public record UpdateCategoryRequest(
 public record ContactDto(
     Guid Id,
     Guid WorkspaceId,
-    string nombre,
-    string tipoCliente,
+    string Name,
+    string Kind,
     string? Email,
     string? TaxId,
     DateTime CreatedAt
 );
 
 public record CreateContactRequest(
-    [Required] string nombre,
-    [Required] string tipoCliente,
+    [Required] string Name,
+    [Required] string Kind,
     string? Email = null,
     string? TaxId = null
 );
 
 public record UpdateContactRequest(
-    string nombre,
-    string tipoCliente,
+    string? Name,
+    string? Kind,
     string? Email,
     string? TaxId
 );

@@ -1,8 +1,8 @@
 using FinanzasApi.Data;
-using FinanzasApi.src.FinanzasApi.Application.Dtos;
+using FinanzasApi.Application.Dtos;
 using Microsoft.EntityFrameworkCore;
 
-namespace FinanzasApi.Services;
+namespace FinanzasApi.Application.Services;
 
 public class CurrencyService : ICurrencyService
 {

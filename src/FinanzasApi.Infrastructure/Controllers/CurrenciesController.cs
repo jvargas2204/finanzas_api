@@ -1,5 +1,5 @@
-using FinanzasApi.Services;
-using FinanzasApi.src.FinanzasApi.Application.Dtos;
+using FinanzasApi.Application.Services;
+using FinanzasApi.Application.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinanzasApi.Controllers;

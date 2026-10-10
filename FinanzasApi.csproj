@@ -31,8 +31,6 @@
 	  <Folder Include="src\FinanzasApi.Application\Interfaces\" />
 	  <Folder Include="src\FinanzasApi.Application\Services\" />
 	  <Folder Include="src\FinanzasApi.Domain\Enums\" />
-	  <Folder Include="src\FinanzasApi.Infrastructure\Controllers\" />
-	  <Folder Include="src\FinanzasApi.Infrastructure\Persistence\" />
 	</ItemGroup>
 
 </Project>

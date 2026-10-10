@@ -1,5 +1,7 @@
-using FinanzasApi.Models;
+using FinanzasApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+
+using FinanzasApi.Domain.Enums;
 
 namespace FinanzasApi.Data;
 

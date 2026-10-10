@@ -1,6 +1,8 @@
-﻿using FinanzasApi.Models;
+using FinanzasApi.Domain.Entities;
 
-namespace FinanzasApi.src.FinanzasApi.Domain.Entities
+using FinanzasApi.Domain.Enums;
+
+namespace FinanzasApi.Domain.Entities
 {
     public class WorkspaceMember
     {

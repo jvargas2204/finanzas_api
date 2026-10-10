@@ -1,9 +1,11 @@
 using FinanzasApi.Data;
-using FinanzasApi.Models;
-using FinanzasApi.src.FinanzasApi.Application.Dtos;
+using FinanzasApi.Domain.Entities;
+using FinanzasApi.Application.Dtos;
 using Microsoft.EntityFrameworkCore;
 
-namespace FinanzasApi.Services;
+using FinanzasApi.Domain.Enums;
+
+namespace FinanzasApi.Application.Services;
 
 public class AccountService : IAccountService
 {

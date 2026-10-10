@@ -1,7 +1,7 @@
 using FinanzasApi.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace FinanzasApi.Services;
+namespace FinanzasApi.Application.Services;
 
 public interface IWorkspaceResolverService
 {

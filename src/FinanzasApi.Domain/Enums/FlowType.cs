@@ -1,4 +1,4 @@
-﻿namespace FinanzasApi.src.FinanzasApi.Domain.Enums
+namespace FinanzasApi.Domain.Enums
 {
     public enum FlowType { Income, Expense }
 }

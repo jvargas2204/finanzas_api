@@ -1,4 +1,4 @@
-﻿namespace FinanzasApi.src.FinanzasApi.Domain.Entities
+namespace FinanzasApi.Domain.Entities
 {
     public class TransactionTag
     {

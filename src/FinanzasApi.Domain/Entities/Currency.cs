@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
-namespace FinanzasApi.src.FinanzasApi.Domain.Entities
+namespace FinanzasApi.Domain.Entities
 {
     public class Currency
     {
