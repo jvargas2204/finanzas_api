@@ -1,8 +1,8 @@
 using System.Text.Json.Serialization;
 using FinanzasApi.Data;
 using FinanzasApi.Middlewares;
-using FinanzasApi.Profiles;
-using FinanzasApi.Services;
+using FinanzasApi.Application.Profiles;
+using FinanzasApi.Application.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
